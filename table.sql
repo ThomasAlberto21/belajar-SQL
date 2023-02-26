@@ -1,4 +1,4 @@
--- membuat table -- 
+-- membuat table --
 CREATE TABLE barang 
 (
 	id INT,
