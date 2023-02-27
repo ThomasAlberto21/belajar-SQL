@@ -109,7 +109,7 @@ SELECT * FROM products;
 SELECT id , name , price , quantity FROM products;
 
 
--- Todo Menambahkan Primary Key Untuk id Agar Tidak Ada id Yang Dibuat Duplikat
+-- * Menambahkan Primary Key Untuk id Agar Tidak Ada id Yang Dibuat Duplikat
 ALTER TABLE products
 ADD PRIMARY KEY(id);
 
