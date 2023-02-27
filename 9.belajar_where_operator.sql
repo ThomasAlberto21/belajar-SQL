@@ -198,7 +198,7 @@ SELECT * FROM products WHERE quantity >= 2 OR price > 20000;
 SELECT * FROM products WHERE (category = "Makanan" OR quantity >=2) AND price >= 20000;
 
 
--- * Like Operator
+-- *  Like Operator
 SELECT * FROM products WHERE name LIKE "%Bubur%";
 
 SELECT * FROM products WHERE name LIKE "%Mie%";
