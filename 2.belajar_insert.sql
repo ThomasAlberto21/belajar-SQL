@@ -18,7 +18,7 @@ SHOW TABLES;
 DESC products;
 
 
--- Todo Memasukkan Data Ke Dalam Table Hanya 1 Data Saja
+-- * Memasukkan Data Ke Dalam Table Hanya 1 Data Saja
 INSERT INTO
     products (
         id,
@@ -35,7 +35,7 @@ VALUES (
         5
     );
 
--- Todo Memasukkan Banyak Data Ke Dalam Table Sekaligus
+-- * Memasukkan Banyak Data Ke Dalam Table Sekaligus
 INSERT INTO
     products (
         id,
