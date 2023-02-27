@@ -118,7 +118,7 @@ ADD PRIMARY KEY(id);
 SHOW CREATE TABLE products;
 
 
--- Todo Where Digunakan Untuk Mencari / Memfilter Data Sesuai Yang Kita Inginkan
+-- * Where Digunakan Untuk Mencari / Memfilter Data Sesuai Yang Kita Inginkan
 SELECT * FROM products WHERE id = "P0001";
 
 SELECT * FROM products WHERE name = "Nasi Goreng";
