@@ -168,7 +168,7 @@ UPDATE products SET price = price + 5000 WHERE id = "P0002";
 
 
 
--- Todo Menghapus Data Yang Ada Di Table
+-- * Menghapus Data Yang Ada Di Table
 DELETE FROM products
 WHERE id = "P0010";
 
