@@ -140,7 +140,7 @@ SELECT * FROM products;
 
 
 
--- Todo Mengupdate Data
+-- * Mengupdate Data
 
 UPDATE products SET category = "Makanan" WHERE id = "P0001";
 
