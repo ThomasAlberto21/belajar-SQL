@@ -101,9 +101,9 @@ VALUES (
     );
 
 
--- Todo Mengambil Semua Data Yang Telah Kita Insert
+-- * Mengambil Semua Data Yang Telah Kita Insert
 SELECT * FROM products;
 
 
--- Todo Hanya Mengambil Sebagian Kolom Saja Yang Telah Kita Insert
+-- * Hanya Mengambil Sebagian Kolom Saja Yang Telah Kita Insert
 SELECT id , name , price , quantity FROM products;
