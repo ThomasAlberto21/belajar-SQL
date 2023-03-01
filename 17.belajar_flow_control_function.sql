@@ -383,4 +383,9 @@ SELECT
 FROM products;
 
 -- * IFNULL digunakan untuk mengganti data yang null dengan data yang kita isi sendiri
-SELECT id , name ,  IFNULL(description , "Data Tidak Ada") FROM products;
+
+SELECT
+    id,
+    name,
+    IFNULL(description, "Data Tidak Ada")
+FROM products;
