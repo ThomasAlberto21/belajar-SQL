@@ -434,7 +434,7 @@ SELECT
 FROM products
 GROUP BY category;
 
--- * HAVING clause
+-- Todo HAVING clause
 
 SELECT
     COUNT(id) AS total,
