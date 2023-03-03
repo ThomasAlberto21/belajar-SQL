@@ -304,6 +304,6 @@ SELECT * FROM products ORDER BY id LIMIT 5;
 
 SELECT * FROM products ORDER BY id LIMIT 5 , 5;
 
--- Todo Distinct Berfungsi untuk menghapus data yang duplikat di query
+-- * Distinct Berfungsi untuk menghapus data yang duplikat di query
 
 SELECT DISTINCT category FROM products;
