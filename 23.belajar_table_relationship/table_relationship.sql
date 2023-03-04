@@ -35,5 +35,4 @@ INSERT INTO
     wishlist(id_products, description)
 VALUES ("salah", "Kesukaan");
 
-
 SELECT * FROM wishlist;
